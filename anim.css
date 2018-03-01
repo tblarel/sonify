@@ -1,0 +1,75 @@
+
+
+/* Created assets and following code for Sonify's mainpage animation: https://streamable.com/3dcpq */
+/* -------------------------------------------------------------------------------- */
+/* --------------------------Animations-------------------------------------------- */
+
+      /* -------------------------------------------------------------------------------- */
+      /* --------------------------Animation for Record Spin----------------------------- */
+
+      #record-spin{
+          -webkit-animation:spin 8s ease-in infinite alternate;
+          -moz-animation:spin 8s ease-in infinite alternate;
+          animation:spin 8s ease-in infinite alternate;
+      }
+
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(720deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(720deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(720deg); transform:rotate(720deg); } }
+
+
+      /* -------------------------------------------------------------------------------- */
+      /* --------------------------Animation for Record Arm Spin------------------------- */
+
+      #record-spin2{
+          -webkit-animation:spin2 8s ease-in infinite alternate;
+          -moz-animation:spin2 8s ease-in infinite alternate;
+          animation:spin2 8s ease-in infinite alternate;
+      }
+
+          @-moz-keyframes spin2 { 
+            0% { -moz-transform: rotate(-10deg); }
+            10% { -moz-transform: rotate(2deg); }
+            20% { -moz-transform: rotate(-3deg); }
+            100% { -moz-transform: rotate(20deg); }
+          }
+          @-webkit-keyframes spin2 { 
+            0% { -webkit-transform: rotate(-10deg); } 
+            10% { -webkit-transform: rotate(2deg); } 
+            20% { -webkit-transform: rotate(-3deg); } 
+            100% { -webkit-transform: rotate(20deg); }
+          }
+          @keyframes spin2 {  
+            0% { -moz-transform: rotate(-10deg); transform:rotate(-10deg);} 
+            10% { -moz-transform: rotate(2deg); transform:rotate(2deg);} 
+            20% { -webkit-transform: rotate(-3deg); transform:rotate(-3deg); } 
+            100% { -webkit-transform: rotate(20deg); transform:rotate(20deg); } 
+          }
+
+      /* -------------------------------------------------------------------------------- */
+      /* --------------------------Animation for Record Sheen Spin----------------------- */
+
+      #record-spin1{
+          -webkit-animation:spin1 8s ease-in infinite alternate;
+          -moz-animation:spin1 8s ease-in infinite alternate;
+          animation:spin1 8s ease-in infinite alternate;
+      }
+
+          @-moz-keyframes spin1 { 
+            0% { -moz-transform: rotate(-10deg); }
+            50% { -moz-transform: rotate(10deg); } 
+            100% { -moz-transform: rotate(-10deg); }
+          }
+          @-webkit-keyframes spin1 { 
+            0% { -moz-transform: rotate(-10deg); } 
+            50% { -webkit-transform: rotate(10deg); } 
+            100% { -webkit-transform: rotate(-10deg); }
+          }
+          @keyframes spin1 {  
+            0% { -moz-transform: rotate(-10deg); transform:rotate(-10deg);} 
+            50% { -webkit-transform: rotate(10deg); transform:rotate(10deg); } 
+            100% { -webkit-transform: rotate(-10deg); transform:rotate(-10deg); } 
+          }
+
+/* -------------------------------------------------------------------------------- */
+/* --------------------------ID CSS ----------------------------------------------- */   
